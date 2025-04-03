@@ -80,7 +80,7 @@ def laser_maze():
 def decryption_puzzle():
     print_slow("You find a locked vault containing secret files.")
     print_slow("There's a keypad. The hint says: 'The first 3 prime numbers multiplied together.'")
-    code = input("Enter the 3-digit code: ")
+    code = input("Enter the code: ")
 
     if code == "30":  # 2 * 3 * 5 = 30
         print_slow("The vault unlocks! You grab the files and move on.")
